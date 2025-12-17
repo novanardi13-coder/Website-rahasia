@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#secretText {
+  cursor: pointer;
+  color: #333;
+  font-size: 32px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+#secretText:hover {
+  color: blue;
+  transform: scale(1.05);
+}
